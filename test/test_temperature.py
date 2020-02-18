@@ -7,10 +7,11 @@ from picotazo_y_a_la_rama.temperature import (
 
 class TestTemperatureTest(TestCase):
 
-
-#    def test_trytoCreateANonValidTemperature(self):
-#        with self.assertRaises(TemperatureNegativeException):
-#            Temperature(-1)
+    """
+    def test_trytoCreateANonValidTemperature(self):
+        with self.assertRaises(TemperatureNegativeException):
+            Temperature(-1)
+    """
 
     def test_tryToCreateAValidTemperature(self):
         measure = 18
