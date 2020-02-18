@@ -14,10 +14,14 @@ Activate enviroment
 . env/bin/activate
 ```
 
-Install pytest
+Install pytest and coverage
 ```
 pip install pytest
+pip install pytest-cov
 ```
 
 Launch tests
+```
+pytests
+pytest --cov=picotazo_y_a_la_rama tests/
 ```
